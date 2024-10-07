@@ -1,5 +1,5 @@
 # CPU-AlgoVision
-An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), Feedback (FB) and Aging.
+An implementation of various CPU scheduling algorithms in C++. The algorithms included are First Come First Serve (FCFS), Round Robin (RR), Shortest Process Next (SPN), Shortest Remaining Time (SRT), Highest Response Ratio Next (HRRN), and Aging.
 
 Algorithms ------> 
 --------------------------------------------------------------------------------------------------------------------------------------------
@@ -86,13 +86,17 @@ Line 4: An integer specifying the number of processes to be simulated.
 Line 5: Start of description of processes. Each process is to be described on a separate line. For algorithms 1 through 7, each process is described using a comma-separated list specifying:
 
 1- String specifying a process name
+
 2- Arrival Time
+
 3- Service Time
 
 Note: For Aging algorithm (algorithm 8), each process is described using a comma-separated list specifying:
 
 1- String specifying a process name
+
 2- Arrival Time
+
 3- Priority
 
 Processes are assumed to be sorted based on the arrival time. If two processes have the same arrival time, then the one with the lower priority is assumed to arrive first.
