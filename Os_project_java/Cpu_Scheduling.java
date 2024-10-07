@@ -95,7 +95,7 @@ public class Cpu_Scheduling {
     /** Global Constants **/
     static final String TRACE = "trace"; // Constant for trace operation mode
     static final String SHOW_STATISTICS = "stats"; // Constant for showing statistics operation mode
-    static final String[] ALGORITHMS = {"", "FCFS", "RR-", "SPN", "SRT", "HRRN", "FB-1", "FB-2i", "AGING"}; // Algorithm names
+    static final String[] ALGORITHMS = {"", "FCFS", "RR-", "SPN", "SRT", "HRRN", "AGING"}; // Algorithm names
 
     // Comparator to sort processes by service time
     public static Comparator<Process> sortByServiceTime = Comparator.comparingInt(a -> a.serviceTime);
